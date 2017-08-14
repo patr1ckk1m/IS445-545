@@ -26,7 +26,7 @@ In the `{Project-Root}` folder, run `npm install` to install dependencies. Run `
 # 5. Create Google Cloud Platform Account
 Read GCP document https://cloud.google.com/docs/ to create your account. You need a Gmail account to use GCP services. 
 
-For billing, you can either start a free trial with $300 budget or get the course coupon from https://google.secure.force.com/GCPEDU/?cid=l%2B84fMTfZWqC15AyngIZ%2FqFKwf4gY7gYqC5j49%2FD2taEQH3R0q4AwMQd8IUvpTQ8/   
+For billing, you can either start a free trial with $300 budget or get the course coupon (check BeachBoard instruction)
 
 You need a school email (@csulb.edu) to get the coupon. 
 
