@@ -44,7 +44,3 @@ Run `gcloud app browse` to check the output.
 
 It's similar to the sample described in GCP document
 https://cloud.google.com/nodejs/getting-started/hello-world
-
-
-
-
