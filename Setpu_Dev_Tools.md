@@ -17,10 +17,17 @@ https://nodejs.org/en, it's recommended using the latest current version for thi
 Verify installation by `node --version`
 
 # 4. Fork and Edit
-Fork the project https://github.com/csulbying/Sample_Start and clone to your local computer.
 
-Edit the `{Project-Root}/website/index.html` to change `James Bond` to your firstname and your last name. The `{Project-Root}` means your local project root folder. It should be the `Sample_Start` folder in the folder that you clone the repository. 
+## 4.1 Fork 
+Fork the project https://github.com/csulbying/Sample_Start in your github account
 
+## 4.2 Clone 
+Colone the newly forked project to your local computer.
+
+## 4.3 Edit
+Use Visual Studio Code (or your favorite editor such as WebStorm) to edit the `{Project-Root}/website/index.html` to change `James Bond` to your firstname and your last name. The `{Project-Root}` means your local project root folder. It should be the `Sample_Start` folder in the folder that you clone the repository. 
+
+## 4.4. Install Dependencies and Run Locally
 In the `{Project-Root}` folder, run `npm install` to install dependencies. Run `npm start` to start the application. Then open your broser, check the output in `http://localhost:3377/`. 
 
 # 5. Create Google Cloud Platform Account
@@ -37,10 +44,19 @@ Create a Google App Engine project named `web-app-01` in your GCP console.
 # 6. Install Cloud SDK
 Download Google Cloud SDK from https://cloud.google.com/sdk/. Install the SDK and learn its basic usage from https://cloud.google.com/sdk/docs/
 
+For Mac, the setup and initialization instructions are documented in https://cloud.google.com/sdk/docs/quickstart-mac-os-x. There are also docs for Windows (https://cloud.google.com/sdk/docs/quickstart-windows). 
+
+You may need to install tools such as Python and/or Ruby, Brew and etc. Please follow the instrcutions. When asked to config Google computer engine, type "n". Answer "Y" to everything else.
+
 # 7. Deploy App
-In your `{Project-Root}` folder, run `gcloud app deploy` to deploy the app to your GCP site. 
+In your `{Project-Root}` folder, run `gcloud app deploy` to deploy the app to your GCP site. Select a `US-west` region for better response time. 
 
 Run `gcloud app browse` to check the output. 
 
-It's similar to the sample described in GCP document
+# 8. Resources
+The above sample is similar to the sample described in GCP document
 https://cloud.google.com/nodejs/getting-started/hello-world
+
+The https://cloud.google.com/docs/ has general GCP documents 
+
+
