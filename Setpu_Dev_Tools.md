@@ -1,7 +1,8 @@
 Use your Gmail account for the course. 
 
 # 1. Setup GitHub and Git
-Create a GitHub account and setup Git. 
+Download git from https://git-scm.com/download/
+
 Learn basic concepts from https://youtu.be/73I5dRucCds 
 
 # 2. Install VisualStudio Code
