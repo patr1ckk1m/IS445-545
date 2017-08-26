@@ -1,7 +1,9 @@
 Use your Gmail account for the course. 
 
 # 1. Setup GitHub and Git
-Download git from https://git-scm.com/download/
+Download git from https://git-scm.com/download/. Config it as described in https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup
+
+Create an GitHub account in https://github.com/
 
 Learn basic concepts from https://youtu.be/73I5dRucCds 
 
