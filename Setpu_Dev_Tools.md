@@ -16,8 +16,9 @@ The good news is that VS Code has built-in support for Git pull/commit/push. Try
 
 # 3. Install Node.js
 https://nodejs.org/en, it's recommended using the latest current version for this course. 
-
 Verify installation by `node --version`
+
+For Mac or Linux users, install and use `nvm` from https://github.com/creationix/nvm to install node.js. 
 
 # 4. Fork and Edit
 
@@ -42,7 +43,7 @@ You need a school email (@csulb.edu) to get the coupon.
 
 Please don't use your credit card to setup billing, the cost might be higher than you expect. 
 
-Create a Google App Engine project named `web-app-01` in your GCP console.  
+Create a Google App Engine project named `web-hw-01` in your GCP console.  
 
 # 6. Install Cloud SDK
 Download Google Cloud SDK from https://cloud.google.com/sdk/. Install the SDK and learn its basic usage from https://cloud.google.com/sdk/docs/
