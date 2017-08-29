@@ -26,7 +26,7 @@ For Mac or Linux users, install and use `nvm` from https://github.com/creationix
 Fork the project https://github.com/csulbying/Sample_Start in your github account
 
 ## 4.2 Clone 
-Colone the newly forked project to your local computer.
+Clone the newly forked project to your local computer.
 
 ## 4.3 Edit
 Use Visual Studio Code (or your favorite editor such as WebStorm) to edit the `{Project-Root}/website/index.html` to change `James Bond` to your firstname and your last name. The `{Project-Root}` means your local project root folder. It should be the `Sample_Start` folder in the folder that you clone the repository. 
