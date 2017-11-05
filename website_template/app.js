@@ -27,11 +27,16 @@ if (message == 2){
 
 if (message == 3){
     var deleteprompt = prompt("Enter the message index (between 1 and " + messages.length + ")");
-    messages.splice(deleteprompt-1, 1);
-    console.log(messages);
-    output.innerHTML = "The current messages are: <br>";
-    for (var i = 0; i<messages.length; i++){
-        output.innerHTML = output.innerHTML + (i+1) + ": " + messages[i] + "<br>";
+    if (deleteprompt < messages.length+1){
+        messages.splice(deleteprompt-1, 1);
+        console.log(messages);
+        output.innerHTML = "The current messages are: <br>";
+        for (var i = 0; i<messages.length; i++){
+            output.innerHTML = output.innerHTML + (i+1) + ": " + messages[i] + "<br>";
+        }
+    }
+    else {
+        output.innerHTML = "Enter a valid index";
     }
 }
 
@@ -39,6 +44,6 @@ if (message == 0){
     output.innerHTML = "Good Bye";
 }
 
-else{
-    output.innerHTML = "Inalid input. Refresh and try again";
+if (message > 3){
+    output.innerHTML = "Please refresh and select a correct command.";
 }
